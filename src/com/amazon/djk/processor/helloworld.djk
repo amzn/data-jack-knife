@@ -1,0 +1,7 @@
+#
+# put hello:world in a map and join a record source with it
+#
+
+@Description Example of an internally defined macro.  Joins the argument record source with a map
+@Usage djk SOURCE helloworld
+? [ hello:world,hi:there ] map:hello join:left
